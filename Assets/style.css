@@ -1,3 +1,14 @@
+p {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  font-size: 12px;
+}
+
+.current {
+  color: black!important;
+}
+
 /* nav bar */
 
 .navbar, 
@@ -6,29 +17,23 @@
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .2rem;
-  font-size: 16px;
+  font-size: 18px;
   padding-bottom: 8px;
 }
 
-p {
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .2rem;
-  font-size: 12px;
+.navbar-nav li {
+  padding: .7rem;
 }
 
+/* index.html specifiers */
+
 .about-me {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.4);
   padding-top: 20px;
-  z-index: 1;
-}
-
-.navbar-nav li {
-  padding: .7rem;
+  z-index: 15;
 }
 
 .carousel-slide {
@@ -46,6 +51,18 @@ p {
   bottom: auto;
 }
 
+.info {
+  padding-top: 20px;
+  padding-bottom: 12%;
+  text-align: center;
+}
+
+.info a {
+  color: black;
+}
+
+/* footer */
+
 .copyright {
   bottom: 3%;
 }
@@ -59,14 +76,4 @@ p {
   padding: 20px;
   text-align: center;
   background-color: white;
-}
-
-.info {
-  padding-top: 20px;
-  padding-bottom: 12%;
-  text-align: center;
-}
-
-.info a {
-  color: black;
 }
