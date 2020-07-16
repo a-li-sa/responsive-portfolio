@@ -1,12 +1,13 @@
 /* nav bar */
 
-.navbar,  
-.container-fluid h1,
-.container-fluid h2 {
+.navbar, 
+.about-me h1,
+.info h2 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .2rem;
   font-size: 16px;
+  padding-bottom: 8px;
 }
 
 p {
@@ -14,6 +15,16 @@ p {
   font-weight: 700;
   letter-spacing: .2rem;
   font-size: 12px;
+}
+
+.about-me {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding-top: 20px;
+  z-index: 1;
 }
 
 .navbar-nav li {
@@ -29,26 +40,33 @@ p {
   height: 100%;
 }
 
-.about-me {
+.carousel-caption {
   position: absolute;
   top: 0;
-  padding: 3%;
-  background-color: rgba(255, 255, 255, 0.3);
+  bottom: auto;
 }
 
 .copyright {
-  position: absolute;
   bottom: 3%;
 }
 
 .footer {
-  z-index: 1;
+  z-index: 15;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   padding: 20px;
   text-align: center;
-  color: white;
-  background-color: black;
+  background-color: white;
+}
+
+.info {
+  padding-top: 20px;
+  padding-bottom: 12%;
+  text-align: center;
+}
+
+.info a {
+  color: black;
 }
