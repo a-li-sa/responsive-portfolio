@@ -24,10 +24,21 @@ button {
   padding-bottom: 8px;
   text-align: center;
   padding-top: 8px;
+  margin-top: 20px;
 }
 
 .navbar-nav li {
   padding: .7rem;
+}
+
+/* portfolio specifiers */
+
+.card-img {
+  padding: 5%;
+}
+
+.card-body h2 {
+  font-family: 'Permanent Marker', cursive;
 }
 
 /* contact.html specifiers */
