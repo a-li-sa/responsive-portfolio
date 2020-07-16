@@ -1,6 +1,13 @@
 p {
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
+  letter-spacing: .2rem;
+  font-size: 14px;
+  text-align: center;
+}
+
+input,
+textarea {
+  font-weight: 500;
   letter-spacing: .2rem;
   font-size: 12px;
 }
@@ -12,13 +19,17 @@ p {
 /* nav bar */
 
 .navbar, 
-.about-me h1,
-.info h2 {
+.heading h1,
+.info h2,
+label,
+button {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .2rem;
   font-size: 18px;
   padding-bottom: 8px;
+  text-align: center;
+  padding-top: 8px;
 }
 
 .navbar-nav li {
@@ -30,9 +41,7 @@ p {
 .about-me {
   position: sticky;
   top: 0;
-  text-align: center;
   background-color: rgba(255, 255, 255, 0.4);
-  padding-top: 20px;
   z-index: 15;
 }
 
