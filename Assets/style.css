@@ -5,12 +5,6 @@ p {
   text-align: center;
 }
 
-input,
-textarea {
-  font-weight: 500;
-  letter-spacing: .2rem;
-  font-size: 12px;
-}
 
 .current {
   color: black!important;
@@ -34,6 +28,23 @@ button {
 
 .navbar-nav li {
   padding: .7rem;
+}
+
+/* contact.html specifiers */
+
+input,
+textarea {
+  font-weight: 500;
+  letter-spacing: .2rem;
+  font-size: 12px;
+}
+
+.btn-light {
+  background: #fbf8e5!important;
+}
+
+.btn-light:hover {
+  background: white!important;
 }
 
 /* index.html specifiers */
