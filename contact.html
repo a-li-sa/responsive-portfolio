@@ -12,7 +12,7 @@
 </head>
 
 <body data-target="navbarResponsive">
-
+  <!-- Start Navigation -->
   <nav class="navbar navbar-expand-md navbar-light">
     <!-- Brand -->
     <a class="navbar-brand" href="index.html">Alisa Poon</a>
@@ -25,43 +25,51 @@
     <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav ml-auto">
+        <!-- Link to Portfolio -->
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
+        <!-- Link to Home -->
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
+        <!-- Link to Contact -->
         <li class="nav-item">
           <a class="nav-link current" href="">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
+  <!-- End Navigation -->
 
-  <!-- contact header -->
+  <!-- Contact Heading -->
   <div class="heading row no-gutters">
     <div class="col-sm-8"></div>
     <div class="col-md-4">
       <h1 class="mark">Let's Talk</h1>
-      <p>Feel free to leave me a message.</p>
+      <p>Get in touch with me.</p>
     </div>
   </div>
+  <!-- End Heading -->
 
-  <!-- input -->
+  <!-- Start Contact Form -->
   <div class="container">
     <form action="/action_page.php" target="_blank" class="needs-validation" novalidate>
+      <!-- Name -->
       <div class="form-group">
         <label for="usr">Name:</label>
         <input type="text" class="form-control" placeholder="enter name" id="name" required>
         <div class="valid-feedback">Valid.</div>
         <div class="invalid-feedback">Please fill out this field.</div>
       </div>
+      <!-- Email -->
       <div class="form-group">
-        <label for="email">Email address:</label>
+        <label for="email">Email:</label>
         <input type="email" class="form-control" placeholder="enter email" id="email" required>
         <div class="valid-feedback">Valid.</div>
         <div class="invalid-feedback">Please fill out this field.</div>
       </div>
+      <!-- Message text area -->
       <div class="form-group">
         <label for="comment">Message:</label>
         <textarea class="form-control" rows="5" placeholder="enter message" id="comment" required></textarea>
@@ -69,26 +77,27 @@
         <div class="invalid-feedback">Please fill out this field.</div>
       </div>
       <button type="submit" class="btn btn-light float-right">SUBMIT</button>
-  </form>
-</div>  
+    </form>
+  </div>
+  <!--End Contact Form  -->
 
-  <!-- footer -->
+  <!-- Fixed Footer -->
   <footer class="footer copyright text-center">
     <p>© 2020 Alisa Poon</p>
     <img src="https://ca.slack-edge.com/T015UR0TP1R-U015TG1ME5T-78b35b2a562f-512" class="rounded-circle"
       alt="a photo of Alisa" width="5%" height="5%"></img>
   </footer>
 
-  <!-- Disable form submissions if there are invalid fields -->
+  <!-- Disable form submissions if there are invalid fields (script copied from w3schools) -->
   <script>
-    (function() {
+    (function () {
       'use strict';
-      window.addEventListener('load', function() {
+      window.addEventListener('load', function () {
         // Get the forms we want to add validation styles to
         var forms = document.getElementsByClassName('needs-validation');
         // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function(form) {
-          form.addEventListener('submit', function(event) {
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
             if (form.checkValidity() === false) {
               event.preventDefault();
               event.stopPropagation();

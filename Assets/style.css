@@ -3,13 +3,13 @@ html {
 }
 
 .mark {
-  background: #FBF167!important;
+  background:#FBF167!important;
 }
 
 p {
   font-weight: 500;
   letter-spacing: .12rem;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -26,8 +26,8 @@ label,
 button {
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: .2rem;
-  font-size: 18px;
+  letter-spacing: .3rem;
+  font-size: 20px;
   padding-bottom: 8px;
   text-align: center;
   padding-top: 8px;
@@ -40,13 +40,13 @@ button {
 
 /* portfolio specifiers */
 
-.card-img {
+.card-img, .img-fluid {
   padding: 5%;
 }
 
 .card-body h2 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 /* contact.html specifiers */
@@ -96,7 +96,7 @@ textarea {
   text-align: center;
 }
 
-.info a {
+.info a, .card a {
   color: black;
 }
 
