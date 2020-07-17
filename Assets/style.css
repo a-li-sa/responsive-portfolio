@@ -2,10 +2,6 @@ html {
   min-height: 100%;
 }
 
-.mark {
-  background:#FBF167!important;
-}
-
 p {
   font-weight: 500;
   letter-spacing: .12rem;
@@ -13,9 +9,24 @@ p {
   text-align: center;
 }
 
+.mark {
+  background:#FBF167!important;
+}
+
 .current {
   color: black!important;
 }
+
+.info {
+  padding-top: 20px;
+  padding-bottom: 18%;
+  text-align: center;
+}
+
+.info a, .card a {
+  color: black;
+}
+
 
 /* nav bar */
 
@@ -39,10 +50,6 @@ button {
 }
 
 /* portfolio specifiers */
-
-.card-img, .img-fluid {
-  padding: 5%;
-}
 
 .card-body h2 {
   font-family: 'Permanent Marker', cursive;
@@ -88,16 +95,6 @@ textarea {
   position: absolute;
   top: 0;
   bottom: auto;
-}
-
-.info {
-  padding-top: 20px;
-  padding-bottom: 18%;
-  text-align: center;
-}
-
-.info a, .card a {
-  color: black;
 }
 
 /* footer */
