@@ -1,10 +1,17 @@
+html {
+  min-height: 100%;
+}
+
+.mark {
+  background: #FBF167!important;
+}`
+
 p {
   font-weight: 500;
-  letter-spacing: .2rem;
+  letter-spacing: .12rem;
   font-size: 14px;
   text-align: center;
 }
-
 
 .current {
   color: black!important;
@@ -39,6 +46,7 @@ button {
 
 .card-body h2 {
   font-family: 'Permanent Marker', cursive;
+  font-size: 22px;
 }
 
 /* contact.html specifiers */
@@ -46,12 +54,12 @@ button {
 input,
 textarea {
   font-weight: 500;
-  letter-spacing: .2rem;
+  letter-spacing: .12rem;
   font-size: 12px;
 }
 
 .btn-light {
-  background: #fbf8e5!important;
+  background: #FBF167!important;
 }
 
 .btn-light:hover {
@@ -84,7 +92,7 @@ textarea {
 
 .info {
   padding-top: 20px;
-  padding-bottom: 12%;
+  padding-bottom: 18%;
   text-align: center;
 }
 
