@@ -1,5 +1,6 @@
-html {
+body {
   min-height: 100%;
+  margin-bottom: 200px;
 }
 
 p {
@@ -19,7 +20,6 @@ p {
 
 .info {
   padding-top: 20px;
-  padding-bottom: 18%;
   text-align: center;
 }
 .navbar, 
@@ -61,7 +61,6 @@ textarea {
 
 .btn-light {
   background: #FBF167;
-  margin-bottom: 18%;
 }
 
 .btn-light:hover {
