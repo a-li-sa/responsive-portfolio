@@ -9,12 +9,12 @@ p {
   text-align: center;
 }
 
-.mark {
-  background:#FBF167!important;
+#black {
+  color: black;
 }
 
-.current {
-  color: black!important;
+#highlight {
+  background:#FBF167;
 }
 
 .info {
@@ -22,14 +22,6 @@ p {
   padding-bottom: 18%;
   text-align: center;
 }
-
-.info a, .card a {
-  color: black;
-}
-
-
-/* nav bar */
-
 .navbar, 
 .heading h1,
 .info h2,
@@ -44,6 +36,8 @@ button {
   padding-top: 8px;
   margin-top: 20px;
 }
+
+/* nav bar */
 
 .navbar-nav li {
   padding: .7rem;
@@ -66,11 +60,12 @@ textarea {
 }
 
 .btn-light {
-  background: #FBF167!important;
+  background: #FBF167;
+  margin-bottom: 18%;
 }
 
 .btn-light:hover {
-  background: white!important;
+  background: white;
 }
 
 /* index.html specifiers */
