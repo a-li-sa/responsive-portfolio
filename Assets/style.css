@@ -14,6 +14,11 @@ p {
   color: black;
 }
 
+/* black id is used to override the bootstrap css in the navbar */
+#black {
+  color: black;
+}
+
 .highlight {
   background:#FBF167;
 }
