@@ -47,6 +47,7 @@ To view the website, you can click [here](https://a-li-sa.github.io/responsive-p
 
 ## Usage 
 Scroll to view the content of the pages. Move between the different pages by clicking on the navigatin links in the navbar.
+
 ![](https://i.imgur.com/4cv1bnj.gif)
 
 <a name="project-status"></a>
